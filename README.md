@@ -8,6 +8,8 @@ Many people seem to want a prebuilt version of micro with all the plugins. Or th
 hassle of managing which plugins to add. Macro builds in all the plugins. Anything in go-plugins will be included 
 in macro.
 
+Note: Macro as micro compiles to an 86mb binary and has significant memory overhead.
+
 ## How it works
 
 Macro creates a `plugins.go` file in the top level repo which is then imported by the binary. This is generated very 
